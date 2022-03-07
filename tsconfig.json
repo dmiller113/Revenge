@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"outputDirectory": "dist",
+		"sourceMap": true,
+		"target": "es2021"
+	},
+	"lib": ["es2021"]
+}
