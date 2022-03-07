@@ -14,7 +14,8 @@
     "webpack-cli": "^4.9.2"
   },
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "rot-js": "^2.2.0"
   },
   "scripts": {
     "lint": "eslint . --ext .ts",
