@@ -1,7 +1,7 @@
 {
   "name": "Revenge",
   "version": "0.0.1",
-  "main": "index.js",
+  "main": "dist/app.js",
   "repository": "git@github.com:dmiller113/Revenge.git",
   "license": "MIT",
   "devDependencies": {
@@ -13,5 +13,9 @@
   },
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+	"scripts": {
+    "lint": "eslint . --ext .ts",
+		"start": "tsc && node dist/app.js"
+	}
 }
